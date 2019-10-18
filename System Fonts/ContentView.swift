@@ -24,8 +24,13 @@ struct DesignSection: View {
             .font(.preferredFont(forTextStyle: style, design: design))
     }
 
+    private var header: some View {
+        Text(design.description)
+            .font(.preferredFont(forTextStyle: .headline, design: design))
+    }
+
     var body: some View {
-        Section(header: Text(design.description).font(.preferredFont(forTextStyle: .headline, design: design))) {
+        Section(header: header) {
             ForEach(UIFont.TextStyle.allCases, id: \.self, content: cell)
         }
     }
