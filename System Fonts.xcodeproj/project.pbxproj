@@ -28,6 +28,7 @@
 		246CB71F2359F9DB00ABA79A /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 		246CB7212359FA1100ABA79A /* UIFontDescriptor.SystemDesign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFontDescriptor.SystemDesign.swift; sourceTree = "<group>"; };
 		246CB7232359FB0E00ABA79A /* UIFont.TextStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFont.TextStyle.swift; sourceTree = "<group>"; };
+		246CB725235A016100ABA79A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +45,7 @@
 		246CB6FF2359F90500ABA79A = {
 			isa = PBXGroup;
 			children = (
+				246CB725235A016100ABA79A /* README.md */,
 				246CB70A2359F90500ABA79A /* System Fonts */,
 				246CB7092359F90500ABA79A /* Products */,
 			);
