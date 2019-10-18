@@ -1,6 +1,10 @@
 
 import UIKit
 
+extension UIFont.TextStyle: Identifiable {
+    public var id: String { description }
+}
+
 extension UIFont.TextStyle: CustomStringConvertible {
 
     public var description: String {
