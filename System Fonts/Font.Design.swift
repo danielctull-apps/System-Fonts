@@ -1,6 +1,10 @@
 
 import SwiftUI
 
+extension Font.Design: Identifiable {
+    public var id: Self { self}
+}
+
 extension Font.Design: CustomStringConvertible {
 
     public var description: String {

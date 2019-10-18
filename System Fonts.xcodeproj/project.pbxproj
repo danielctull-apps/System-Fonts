@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		240B23B9235A66A600D59A79 /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240B23B8235A66A600D59A79 /* Framework.swift */; };
+		240B23C1235A6AE200D59A79 /* Customized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240B23C0235A6AE200D59A79 /* Customized.swift */; };
+		240B23C3235A6B1400D59A79 /* Font.Weight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240B23C2235A6B1400D59A79 /* Font.Weight.swift */; };
+		240B23C5235A733B00D59A79 /* SystemFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240B23C4235A733B00D59A79 /* SystemFonts.swift */; };
 		246CB70C2359F90500ABA79A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246CB70B2359F90500ABA79A /* AppDelegate.swift */; };
 		246CB70E2359F90500ABA79A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246CB70D2359F90500ABA79A /* SceneDelegate.swift */; };
 		246CB7102359F90500ABA79A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246CB70F2359F90500ABA79A /* ContentView.swift */; };
@@ -25,6 +28,9 @@
 
 /* Begin PBXFileReference section */
 		240B23B8235A66A600D59A79 /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
+		240B23C0235A6AE200D59A79 /* Customized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customized.swift; sourceTree = "<group>"; };
+		240B23C2235A6B1400D59A79 /* Font.Weight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.Weight.swift; sourceTree = "<group>"; };
+		240B23C4235A733B00D59A79 /* SystemFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemFonts.swift; sourceTree = "<group>"; };
 		246CB7082359F90500ABA79A /* System Fonts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "System Fonts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		246CB70B2359F90500ABA79A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		246CB70D2359F90500ABA79A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +66,7 @@
 				2471D176235A612300A3A9FE /* SwiftUIFonts.swift */,
 				2471D172235A608E00A3A9FE /* Font.Design.swift */,
 				2471D170235A5FEC00A3A9FE /* Font.TextStyle.swift */,
+				240B23C2235A6B1400D59A79 /* Font.Weight.swift */,
 			);
 			name = SwiftUI;
 			sourceTree = "<group>";
@@ -100,6 +107,8 @@
 				246CB70F2359F90500ABA79A /* ContentView.swift */,
 				240B23B8235A66A600D59A79 /* Framework.swift */,
 				2471D178235A623600A3A9FE /* SegmentedControl.swift */,
+				240B23C4235A733B00D59A79 /* SystemFonts.swift */,
+				240B23C0235A6AE200D59A79 /* Customized.swift */,
 				240B23BB235A673A00D59A79 /* SwiftUI */,
 				240B23BD235A69B000D59A79 /* UIKit */,
 				246CB7112359F90700ABA79A /* Assets.xcassets */,
@@ -180,12 +189,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				246CB7242359FB0E00ABA79A /* UIFont.TextStyle.swift in Sources */,
+				240B23C3235A6B1400D59A79 /* Font.Weight.swift in Sources */,
 				246CB7202359F9DB00ABA79A /* Font.swift in Sources */,
 				2471D179235A623600A3A9FE /* SegmentedControl.swift in Sources */,
 				2471D177235A612300A3A9FE /* SwiftUIFonts.swift in Sources */,
 				240B23B9235A66A600D59A79 /* Framework.swift in Sources */,
+				240B23C1235A6AE200D59A79 /* Customized.swift in Sources */,
 				246CB70C2359F90500ABA79A /* AppDelegate.swift in Sources */,
 				2471D173235A608E00A3A9FE /* Font.Design.swift in Sources */,
+				240B23C5235A733B00D59A79 /* SystemFonts.swift in Sources */,
 				2471D175235A60E300A3A9FE /* UIKitFonts.swift in Sources */,
 				2471D171235A5FEC00A3A9FE /* Font.TextStyle.swift in Sources */,
 				246CB7222359FA1100ABA79A /* UIFontDescriptor.SystemDesign.swift in Sources */,
