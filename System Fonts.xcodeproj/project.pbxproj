@@ -13,6 +13,7 @@
 		246CB7122359F90700ABA79A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 246CB7112359F90700ABA79A /* Assets.xcassets */; };
 		246CB7182359F90700ABA79A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 246CB7162359F90700ABA79A /* LaunchScreen.storyboard */; };
 		246CB7202359F9DB00ABA79A /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246CB71F2359F9DB00ABA79A /* Font.swift */; };
+		246CB7222359FA1100ABA79A /* UIFontDescriptor.SystemDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246CB7212359FA1100ABA79A /* UIFontDescriptor.SystemDesign.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		246CB7172359F90700ABA79A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		246CB7192359F90700ABA79A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		246CB71F2359F9DB00ABA79A /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		246CB7212359FA1100ABA79A /* UIFontDescriptor.SystemDesign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFontDescriptor.SystemDesign.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				246CB70D2359F90500ABA79A /* SceneDelegate.swift */,
 				246CB70F2359F90500ABA79A /* ContentView.swift */,
 				246CB71F2359F9DB00ABA79A /* Font.swift */,
+				246CB7212359FA1100ABA79A /* UIFontDescriptor.SystemDesign.swift */,
 				246CB7112359F90700ABA79A /* Assets.xcassets */,
 				246CB7162359F90700ABA79A /* LaunchScreen.storyboard */,
 				246CB7192359F90700ABA79A /* Info.plist */,
@@ -139,6 +142,7 @@
 			files = (
 				246CB7202359F9DB00ABA79A /* Font.swift in Sources */,
 				246CB70C2359F90500ABA79A /* AppDelegate.swift in Sources */,
+				246CB7222359FA1100ABA79A /* UIFontDescriptor.SystemDesign.swift in Sources */,
 				246CB70E2359F90500ABA79A /* SceneDelegate.swift in Sources */,
 				246CB7102359F90500ABA79A /* ContentView.swift in Sources */,
 			);

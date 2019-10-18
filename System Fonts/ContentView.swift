@@ -6,30 +6,16 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List {
-                TextStyleSection(design: .default)
-                TextStyleSection(design: .monospaced)
-                TextStyleSection(design: .rounded)
-                TextStyleSection(design: .serif)
+                ForEach(UIFontDescriptor.SystemDesign.allCases,
+                        id: \.self,
+                        content: DesignSection.init)
             }
             .navigationBarTitle("System Fonts", displayMode: .inline)
         }
     }
 }
 
-extension UIFontDescriptor.SystemDesign: CustomStringConvertible {
-
-    public var description: String {
-        switch self {
-        case .default: return "default"
-        case .rounded: return "rounded"
-        case .serif: return "serif"
-        case .monospaced: return "monospaced"
-        default: fatalError()
-        }
-    }
-}
-
-struct TextStyleSection: View {
+struct DesignSection: View {
 
     let design: UIFontDescriptor.SystemDesign
 
