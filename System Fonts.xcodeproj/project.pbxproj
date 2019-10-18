@@ -11,7 +11,6 @@
 		246CB70E2359F90500ABA79A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246CB70D2359F90500ABA79A /* SceneDelegate.swift */; };
 		246CB7102359F90500ABA79A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246CB70F2359F90500ABA79A /* ContentView.swift */; };
 		246CB7122359F90700ABA79A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 246CB7112359F90700ABA79A /* Assets.xcassets */; };
-		246CB7152359F90700ABA79A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 246CB7142359F90700ABA79A /* Preview Assets.xcassets */; };
 		246CB7182359F90700ABA79A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 246CB7162359F90700ABA79A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -21,7 +20,6 @@
 		246CB70D2359F90500ABA79A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		246CB70F2359F90500ABA79A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		246CB7112359F90700ABA79A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		246CB7142359F90700ABA79A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		246CB7172359F90700ABA79A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		246CB7192359F90700ABA79A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,17 +60,8 @@
 				246CB7112359F90700ABA79A /* Assets.xcassets */,
 				246CB7162359F90700ABA79A /* LaunchScreen.storyboard */,
 				246CB7192359F90700ABA79A /* Info.plist */,
-				246CB7132359F90700ABA79A /* Preview Content */,
 			);
 			path = "System Fonts";
-			sourceTree = "<group>";
-		};
-		246CB7132359F90700ABA79A /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				246CB7142359F90700ABA79A /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,7 +123,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				246CB7182359F90700ABA79A /* LaunchScreen.storyboard in Resources */,
-				246CB7152359F90700ABA79A /* Preview Assets.xcassets in Resources */,
 				246CB7122359F90700ABA79A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,7 +273,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"System Fonts/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = B2M757K4LG;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "System Fonts/Info.plist";
@@ -305,7 +293,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"System Fonts/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = B2M757K4LG;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "System Fonts/Info.plist";
